@@ -56,11 +56,12 @@ li {
 #location-box {
     height: 500px;
     width: 1200px;
+    margin: auto;
     background-image: url("images/locations-background.jpg");
 }
 
 #location-flexbox {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
 }
 
