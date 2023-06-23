@@ -1,0 +1,71 @@
+* {
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    text-align: center;
+}
+
+head {
+    display: inline-flex;
+}
+
+h2, h3, h4, h5, nav {
+  font-family: Helvetica;  
+  color: seashell;
+  opacity: 0.9;
+}
+
+nav {
+    display: inline-flex;
+
+}
+
+#logo-img {
+    height: 50px;
+}
+
+li {
+  text-decoration: underline;
+  list-style: none;
+}
+
+#hero-img {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+
+}
+
+#tea-types {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-between;
+}
+
+.tea-month {
+    height: 200px;
+    width: 300px;
+
+}
+
+#location-box {
+    height: 500px;
+    width: 1200px;
+    background-image: url("images/locations-background.jpg");
+}
+
+#location-flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-items {
+    background-color: black;
+    width: 300px;
+    margin: 40px;
+}
