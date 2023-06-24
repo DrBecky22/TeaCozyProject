@@ -7,14 +7,19 @@ body {
     text-align: center;
 }
 
+h2, h3, h4, h5, nav {
+    font-family: Helvetica;  
+    color: seashell;
+    opacity: 0.9;
+  }
+
 head {
     display: inline-flex;
 }
 
-h2, h3, h4, h5, nav {
-  font-family: Helvetica;  
-  color: seashell;
-  opacity: 0.9;
+#logo-img {
+    height: 50px;
+    margin-left: 10px;
 }
 
 nav {
@@ -22,20 +27,23 @@ nav {
 
 }
 
-#logo-img {
-    height: 50px;
-}
 
 li {
   text-decoration: underline;
   list-style: none;
 }
 
-#hero-img {
+#site-hero {
     height: 700px;
     width: 1200px;
+    align-items: center;
     margin: auto;
+    background-image: url("images/mission-background.jpg");
+}
 
+#hero-words {
+    padding: 10px;
+    align-items: center;
 }
 
 #tea-types {
